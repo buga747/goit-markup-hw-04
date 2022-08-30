@@ -70,7 +70,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .list {
@@ -213,13 +213,13 @@ ul {
 
     background-image:
         linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/background-image/hero-background-image.jpg);
+        url(../images/hero/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* width: 1600px; */
     margin-left: auto;
     margin-right: auto;
+    max-width: 1600px;
 }
 
 .main-title {
